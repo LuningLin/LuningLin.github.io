@@ -24,8 +24,7 @@ plugins:
 # Plainwhite 主题的专属设置
 # -----------------
 plainwhite:
-  name: Luning Lin (林鹿宁)
-  tagline: Ph.D. Student in Electronic Science Technology
+  name: Luning Lin
   date_format: "%b %-d, %Y"
 
   sitemap: true
