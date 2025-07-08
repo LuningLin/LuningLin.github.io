@@ -9,7 +9,6 @@ title: Publications
 - **[J2]** **L. Lin**, H. Zheng, C. Zhou, S. He and Z. Shi, "Nonorthogonal waveform assisted DOA estimation for joint MIMO sensing and communication," *EURASIP J. Adv. Signal Process.*, vol. 2023, no. 1, pp. 1–19, Feb. 2023.
 - **[J3]** **L. Lin**, C. Zhou, H. Zheng, Z. Shi, S. A. Vorobyov, and R. W. Heath Jr. "Sensing-aided precoding with high-dynamic moving scatterers," *IEEE Trans. Signal Process., Accepted (July 2025).
 - **[J4]** **L. Lin**, M. Wang, Z. Shi, M. S. Greco, and F. Gini. "ISAC-enabled near-field high-mobility UAV localization: Analysis, bounds and algorithm,” *IEEE Transactions on Aerospace and Electronic Systems*. (Under review).
-#- **[J5]** **L. Lin**, et al. "Cooperative multi-base station UAV localization and communication beam prediction,” *Journal of Signal Processing*. (In review, Chinese Core Journal).
 
 ---
 
