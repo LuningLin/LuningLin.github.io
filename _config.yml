@@ -40,6 +40,8 @@ plainwhite:
     - title: CV
       url: "/cv"
 
+remote_theme: samarsault/plainwhite-jekyll
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
