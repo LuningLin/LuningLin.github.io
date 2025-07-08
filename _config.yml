@@ -45,3 +45,5 @@ plainwhite:
       url: "/publications"
     - title: Projects
       url: "/projects"
+
+# Force re-deployment on 2025-07-08
