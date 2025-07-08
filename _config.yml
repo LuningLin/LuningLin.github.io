@@ -1,5 +1,7 @@
 
-url: "https://LuningLin.github.io" 
+
+baseurl: "" 
+url: "https://luninglin.github.io" 
 
 title: Luning Lin | Homepage
 author: Luning Lin
@@ -8,6 +10,9 @@ description: >
   Personal homepage of Luning Lin, a Ph.D. student at the College of Information and Electronic Engineering, Zhejiang University.
   My research focuses on Array Signal Processing, Integrated Sensing and Communication (ISAC), and Wireless Communication.
 
+# -----------------
+# 主题和插件设置
+# -----------------
 remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
@@ -15,6 +20,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
+# -----------------
+# Plainwhite 主题的专属设置
+# -----------------
 plainwhite:
   name: Luning Lin (林鹿宁)
   tagline: Ph.D. Student in Electronic Science Technology
@@ -27,8 +35,6 @@ plainwhite:
   avatar: "assets/img/profile.jpg" 
 
   social_links:
-    # github: your-github-username 
-    # linkedin: in/your-linkedin-profile 
     google_scholar: "https://scholar.google.com/citations?user=POUuJlIAAAAJ&hl=zh-CN"
     email: luninglin@zju.edu.cn
 
@@ -39,5 +45,3 @@ plainwhite:
       url: "/publications"
     - title: Projects
       url: "/projects"
-    #- title: CV
-    #  url: "/cv"
