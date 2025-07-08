@@ -15,9 +15,7 @@ title: Research Projects
 *Funded by: National Natural Science Foundation of China (NSFC)*
 *Duration: Jan. 2022 - Dec. 2025*
 - **Description:** This project aims to achieve high-accuracy localization and sensing of low-altitude UAVs by repurposing existing 5G network infrastructure.
-- **My Contribution:** As a student lead for the sub-project on "High-Accuracy Localization and Fusion-based Identification," I:
-    1.  Proposed a motion-target-localization-assisted communication precoding scheme to address the challenge of limited spectral efficiency in high-dynamics environments (published in IEEE ICASSP).
-    2.  Developed a wide-area passive UAV detection algorithm based on communication signal spectrum perturbation analysis, which won an award at a student competition.
+- **My Contribution:** As a student lead for the sub-project on "High-Accuracy Localization and Fusion-based Identification," I proposed a motion-target-localization-assisted communication precoding scheme to address the challenge of limited spectral efficiency in high-dynamics environments (published in IEEE ICASSP). I Developed a wide-area passive UAV detection algorithm based on communication signal spectrum perturbation analysis, which won an award at a student competition.
 ---
 
 ### Indoor-Outdoor Fused Positioning Technology for Mobile Networks
