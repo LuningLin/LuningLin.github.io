@@ -2,11 +2,6 @@
 layout: home
 ---
 
----
-layout: page
-title: Research Projects
----
-
 ### About Me
 
 I am a Ph.D. student at the College of Information and Electronic Engineering, Zhejiang University, advised by Prof. Zhiguo Shi. I am a visiting Ph.D. student at the University of Pisa, co-advised by Prof. Fulvio Gini and Prof. Maria Sabrina Greco.
