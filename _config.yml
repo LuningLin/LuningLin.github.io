@@ -40,9 +40,6 @@ plainwhite:
     - title: CV
       url: "/cv"
 
-# Build settings
-theme: jekyll-plainwhite-theme
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
