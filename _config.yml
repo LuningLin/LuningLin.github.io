@@ -37,11 +37,12 @@ plainwhite:
       url: "/publications"
     - title: Projects
       url: "/projects"
-    - title: CV
-      url: "/cv"
+    #- title: CV
+    #  url: "/cv"
 
 remote_theme: samarsault/plainwhite-jekyll
 
-plugins:
-  - jekyll-feed
+  plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-feed
