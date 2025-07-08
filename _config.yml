@@ -32,7 +32,7 @@ plainwhite:
   search: true
   dark_mode: true
   
-  avatar: "assets/profile.jpg" 
+  portfolio_image: "assets/profile.jpg" 
 
   social_links:
     google_scholar: "https://scholar.google.com/citations?user=POUuJlIAAAAJ&hl=zh-CN"
@@ -46,4 +46,3 @@ plainwhite:
     - title: Projects
       url: "/projects"
 
-# Force re-deployment on 2025-07-08
