@@ -32,7 +32,7 @@ plainwhite:
   search: true
   dark_mode: true
   
-  avatar: "assets/img/profile.jpg" 
+  avatar: "assets/profile.jpg" 
 
   social_links:
     google_scholar: "https://scholar.google.com/citations?user=POUuJlIAAAAJ&hl=zh-CN"
