@@ -1,35 +1,37 @@
-title: Luning Lin | Homepage  
+
+url: "https://LuningLin.github.io" 
+
+title: Luning Lin | Homepage
 author: Luning Lin
 email: luninglin@zju.edu.cn
-description: 
-  Personal homepage of Luning Lin, a Ph.D. student at the College of Information and Electronic Engineering, Zhejiang University. 
+description: >
+  Personal homepage of Luning Lin, a Ph.D. student at the College of Information and Electronic Engineering, Zhejiang University.
   My research focuses on Array Signal Processing, Integrated Sensing and Communication (ISAC), and Wireless Communication.
+
+remote_theme: samarsault/plainwhite-jekyll
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
 
 plainwhite:
   name: Luning Lin (林鹿宁)
   tagline: Ph.D. Student in Electronic Science Technology
-  date_format: "%b %-d, %Y" # 日期格式
+  date_format: "%b %-d, %Y"
 
-  sitemap: true 
-  search: true 
-  dark_mode: true 
+  sitemap: true
+  search: true
+  dark_mode: true
   
-  # 头像设置
-  # 重要提示：请将你的头像照片命名为 profile.jpg 并上传到网站的 assets/img/ 目录下
   avatar: "assets/img/profile.jpg" 
 
-  # 社交媒体与学术链接
   social_links:
-    # 填写你的GitHub用户名替换 "your-github-username"
     # github: your-github-username 
-    # 填写你的LinkedIn个人主页ID替换 "your-linkedin-profile"
     # linkedin: in/your-linkedin-profile 
-    # 学术主页，强烈建议创建并链接
     google_scholar: "https://scholar.google.com/citations?user=POUuJlIAAAAJ&hl=zh-CN"
-    email: luninglin@zju.edu.cn # 页脚的邮件链接
+    email: luninglin@zju.edu.cn
 
-  # 导航栏设置
-  # 这里定义了你网站顶部的导航链接
   navigation:
     - title: Home
       url: "/"
@@ -39,10 +41,3 @@ plainwhite:
       url: "/projects"
     #- title: CV
     #  url: "/cv"
-
-remote_theme: samarsault/plainwhite-jekyll
-
-  plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-feed
