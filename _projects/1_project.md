@@ -11,6 +11,7 @@ related_publications: true
 This project focuses on designing efficient waveforms that simultaneously support high-speed communication and accurate sensing in high-mobility environments.
 
 **Key Contributions:**
+
 - Joint optimization of communication rate and sensing accuracy
 - Doppler-resilient waveform design for high-mobility scenarios
 - Robust precoding schemes for moving scatterers
@@ -25,4 +26,5 @@ This project focuses on designing efficient waveforms that simultaneously suppor
 </div>
 
 **Related Publications:**
+
 - L. Lin, Z. Shi, et al., "Sensing-Aided Precoding with High-Dynamic Moving Scatterers," IEEE Transactions on Signal Processing, 2025.

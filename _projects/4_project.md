@@ -11,6 +11,7 @@ related_publications: true
 This project explores nonorthogonal waveform designs to enhance direction-of-arrival (DOA) estimation performance in joint MIMO sensing and communication systems.
 
 **Key Contributions:**
+
 - Nonorthogonal waveform design for improved DOA estimation
 - Cramér-Rao bound analysis for DOA estimation with communication constraints
 - Efficient algorithms for joint communication and sensing beamforming
@@ -25,4 +26,5 @@ This project explores nonorthogonal waveform designs to enhance direction-of-arr
 </div>
 
 **Related Publications:**
+
 - L. Lin, Z. Shi, et al., "Nonorthogonal Waveform Assisted DOA Estimation for Joint MIMO Sensing and Communication," EURASIP Journal on Advances in Signal Processing, 2023.

@@ -11,6 +11,7 @@ related_publications: true
 This project addresses the joint target localization and channel estimation problem in orthogonal delay-Doppler multiplexing (ODDM) based ISAC systems.
 
 **Key Contributions:**
+
 - Novel ODDM waveform design for ISAC applications
 - Efficient joint estimation algorithms exploiting delay-Doppler structure
 - Performance analysis and comparison with OTFS-based ISAC
@@ -25,4 +26,5 @@ This project addresses the joint target localization and channel estimation prob
 </div>
 
 **Related Publications:**
+
 - L. Lin, Z. Shi, et al., "Joint Target Localization and Channel Estimation for ODDM-ISAC Systems," IEEE Signal Processing Letters, 2025.

@@ -39,10 +39,7 @@
       "startDate": "2024-09-01",
       "endDate": "2025-09-01",
       "summary": "Conducted research on ISAC systems under the co-advisory of Prof. Fulvio Gini and Prof. Maria Sabrina Greco.",
-      "highlights": [
-        "Collaborated with the Radar and Sensor Systems Group",
-        "Developed novel algorithms for joint waveform design"
-      ]
+      "highlights": ["Collaborated with the Radar and Sensor Systems Group", "Developed novel algorithms for joint waveform design"]
     }
   ],
   "education": [
@@ -55,16 +52,8 @@
       "startDate": "2022-09-01",
       "endDate": "2026-06-01",
       "score": "",
-      "courses": [
-        "Advanced Signal Processing",
-        "Wireless Communications",
-        "Radar Systems",
-        "Machine Learning for Communications"
-      ],
-      "highlights": [
-        "Member of NESC Group at State Key Laboratory of Industrial Control Technology",
-        "Advisor: Prof. Zhiguo Shi (IEEE Fellow)"
-      ]
+      "courses": ["Advanced Signal Processing", "Wireless Communications", "Radar Systems", "Machine Learning for Communications"],
+      "highlights": ["Member of NESC Group at State Key Laboratory of Industrial Control Technology", "Advisor: Prof. Zhiguo Shi (IEEE Fellow)"]
     },
     {
       "institution": "Zhejiang University",
@@ -131,24 +120,13 @@
       "name": "Signal Processing",
       "level": "Expert",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Radar Signal Processing",
-        "Communication Systems",
-        "Array Processing",
-        "Estimation Theory",
-        "Detection Theory"
-      ]
+      "keywords": ["Radar Signal Processing", "Communication Systems", "Array Processing", "Estimation Theory", "Detection Theory"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "MATLAB",
-        "Python",
-        "C++",
-        "LaTeX"
-      ]
+      "keywords": ["MATLAB", "Python", "C++", "LaTeX"]
     },
     {
       "name": "Research Areas",
@@ -180,22 +158,12 @@
     {
       "name": "Wireless Communications",
       "icon": "fa-solid fa-wifi",
-      "keywords": [
-        "5G/6G Systems",
-        "MIMO",
-        "OFDM",
-        "Beamforming"
-      ]
+      "keywords": ["5G/6G Systems", "MIMO", "OFDM", "Beamforming"]
     },
     {
       "name": "Radar Systems",
       "icon": "fa-solid fa-broadcast-tower",
-      "keywords": [
-        "SAR",
-        "MIMO Radar",
-        "Cognitive Radar",
-        "Automotive Radar"
-      ]
+      "keywords": ["SAR", "MIMO Radar", "Cognitive Radar", "Automotive Radar"]
     }
   ],
   "references": [],

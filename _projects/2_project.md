@@ -11,6 +11,7 @@ related_publications: true
 This project investigates near-field effects in ISAC systems for unmanned aerial vehicles, including channel modeling, performance analysis, and algorithm development.
 
 **Key Contributions:**
+
 - Derivation of Cramér-Rao bounds for near-field localization
 - Development of efficient near-field beamforming algorithms
 - Analysis of mobility-induced channel variations
@@ -25,4 +26,5 @@ This project investigates near-field effects in ISAC systems for unmanned aerial
 </div>
 
 **Related Publications:**
+
 - L. Lin, Z. Shi, et al., "ISAC-Enabled Near-Field High-Mobility UAV Localization: Analysis, Bounds and Algorithm," IEEE Transactions on Aerospace and Electronic Systems, 2025.
