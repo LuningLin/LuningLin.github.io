@@ -390,10 +390,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-the-ieee-comsoc-frontiers-of-networking-student-competition-award-for-outstanding-research-in-networking-and-communications",
-          title: 'Received the IEEE ComSoc Frontiers of Networking Student Competition Award for outstanding research...',
-          description: "",
-          section: "News",},{id: "news-started-visiting-ph-d-research-at-the-university-of-pisa-italy-under-the-co-advisory-of-prof-fulvio-gini-and-prof-maria-sabrina-greco",
+            },},{id: "news-started-visiting-ph-d-research-at-the-university-of-pisa-italy-under-the-co-advisory-of-prof-fulvio-gini-and-prof-maria-sabrina-greco",
           title: 'Started visiting Ph.D. research at the University of Pisa, Italy, under the co-advisory...',
           description: "",
           section: "News",},{id: "news-paper-accepted-to-ieee-signal-processing-letters-on-oddm-waveform-design-thanks-to-all-collaborators",
@@ -458,6 +455,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=POUuJlIAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-6904-9644", "_blank");
         },
       },{
         id: 'social-rss',
