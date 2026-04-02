@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">📰 News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -56,10 +56,35 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Education -->
+    <h2>🎓 Education</h2>
+    <div class="education-section">
+      <div class="education-item">
+        <h5><strong>Ph.D. Candidate in Electronic Science and Technology</strong></h5>
+        <p><a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, Hangzhou, China<br>
+        <em>September 2021 - Expected 2026</em><br>
+        Advisor: <a href="https://person.zju.edu.cn/shizg">Prof. Zhiguo Shi</a> (IEEE Fellow)
+        </p>
+      </div>
+      <div class="education-item">
+        <h5><strong>Visiting Ph.D. Student</strong></h5>
+        <p><a href="https://www.unipi.it/index.php/english">University of Pisa</a>, Pisa, Italy<br>
+        <em>September 2024 - September 2025</em><br>
+        Advisors: <a href="https://scholar.google.com/citations?user=eKbNewIAAAAJ">Prof. Fulvio Gini</a> (IEEE Fellow) & <a href="https://scholar.google.com/citations?user=bZXCsFMAAAAJ">Prof. Maria Sabrina Greco</a> (IEEE Fellow)
+        </p>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <h2>🏢 Work Experience</h2>
+    <div class="work-section">
+      <!-- 可以在这里添加工作经历条目 -->
+    </div>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">📑 Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
