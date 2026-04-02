@@ -7,13 +7,9 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: luninglin_pic.jpg
   image_circular: false
-  more_info: >
-    <p>College of Information Science & Electronic Engineering</p>
-    <p>Zhejiang University</p>
-    <p>Hangzhou, Zhejiang, China</p>
-
+  more_info:
 selected_papers: true
 social: true
 
