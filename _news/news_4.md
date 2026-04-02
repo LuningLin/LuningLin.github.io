@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my visiting research at the **University of Pisa**, Italy, co-advised by Prof. Fulvio Gini and Prof. Maria Sabrina Greco.
+Started visiting Ph.D. research at the **University of Pisa**, Italy, under the co-advisory of Prof. Fulvio Gini and Prof. Maria Sabrina Greco.

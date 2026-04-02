@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "ISAC-Enabled Near-Field High-Mobility UAV Localization" has been accepted by **IEEE Transactions on Aerospace and Electronic Systems**.
+Two papers accepted to **IEEE TAES** and **IEEE SPL** on ISAC systems and ODDM waveform design.

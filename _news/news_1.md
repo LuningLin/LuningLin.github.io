@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to receive the **National Scholarship** for graduate students (2025).
+Awarded the **National Scholarship** (2025), the highest honor for graduate students in China.
