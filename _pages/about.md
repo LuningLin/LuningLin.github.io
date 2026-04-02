@@ -2,33 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Ph.D. Candidate, <a href='https://www.zju.edu.cn/english/'>Zhejiang University</a> | Integrated Sensing and Communication
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>College of Information Science & Electronic Engineering</p>
+    <p>Zhejiang University</p>
+    <p>Hangzhou, Zhejiang, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in Electronic Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/) (expected 2026), advised by [Prof. Zhiguo Shi](https://person.zju.edu.cn/shizg) (IEEE Fellow). I am a member of the [NESC Group](http://nesc.zju.edu.cn/) at the State Key Laboratory of Industrial Control Technology. From September 2024 to September 2025, I was a visiting Ph.D. student at the [University of Pisa](https://www.unipi.it/index.php/english), Italy, co-advised by [Prof. Fulvio Gini](https://scholar.google.com/citations?user=eKbNewIAAAAJ) (IEEE Fellow) and [Prof. Maria Sabrina Greco](https://scholar.google.com/citations?user=bZXCsFMAAAAJ) (IEEE Fellow).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on **Integrated Sensing and Communication (ISAC)** signal processing. I design efficient algorithms to achieve sensing-aided communication enhancement and high-accuracy sensing based on communication signals. My work spans topics including joint waveform design, target localization, channel estimation, and DOA estimation for dual-function radar-communication systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have published 10 first-author papers, including 4 SCI journal articles (IEEE TSP, IEEE TAES, IEEE SPL, EURASIP JASP) and 5 EI conference papers (IEEE ICASSP, IEEE RadarConf, Asilomar, etc.). I received the **National Scholarship** (2025), **IEEE AESS Travel Grant** (2022, the only Chinese student awardee that year), and the **IEEE ComSoc Frontiers of Networking Student Competition Award** (2023).
