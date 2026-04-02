@@ -9,42 +9,42 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-news",
-              title: "News",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/#news";
-              },
-            },{id: "dropdown-education",
-              title: "Education",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/#education";
-              },
-            },{id: "dropdown-work-experience",
-              title: "Work Experience",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/#work";
-              },
-            },{id: "dropdown-publications",
-              title: "Publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/#publications";
-              },
-            },{id: "dropdown-awards",
-              title: "Awards",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/#awards";
-              },
-            },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/#news";
+          },
+        },{id: "nav-education",
+          title: "Education",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/#education";
+          },
+        },{id: "nav-work",
+          title: "Work",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/#work";
+          },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/#awards";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/#publications";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
