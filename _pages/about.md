@@ -25,7 +25,6 @@ I am currently a Ph.D. candidate specializing in Electronic Science and Technolo
 From September 2024 to September 2025, I was privileged to be a visiting scholar at the [University of Pisa](https://www.unipi.it/index.php/english), Italy, co-advised by [Prof. Fulvio Gini](https://scholar.google.com/citations?user=eKbNewIAAAAJ) (IEEE Fellow) and [Prof. Maria Sabrina Greco](https://scholar.google.com/citations?user=bZXCsFMAAAAJ) (IEEE Fellow).
 
 My research is dedicated to the Integrated Sensing and Communication (ISAC), array signal processing, and wireless communication. 
-I have published 10+ papers at top international journals and conferences with <a href="https://scholar.google.com/citations?user=POUuJlIAAAAJ&hl=zh-CN" target="_blank"> citations</a>.
 My findings have been featured in premier venues such as IEEE TSP, IEEE TAES, and IEEE SPL, and presented at flagship conferences including ICASSP and RadarConf. 
 Beyond my research, I actively contribute to the academic community as an independent reviewer for journals like IEEE TSP, TAES, TMTT, SPL, and TVT, as well as confereces including IEEE ICASSP, RadarConf, Globecom, ICC, PIMRC, VTC, etc.
 
