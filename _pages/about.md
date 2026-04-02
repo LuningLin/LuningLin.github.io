@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  Ph.D. Candidate, <a href='https://www.zju.edu.cn/english/'>Zhejiang University</a> | Integrated Sensing and Communication
+subtitle: 林鹿宁
 
 profile:
   align: right
