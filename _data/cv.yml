@@ -15,11 +15,9 @@ cv:
         area: Electronic Science and Technology
         studyType: Ph.D.
         start_date: 2021-09
-        end_date: 2026-06 (expected)
+        end_date: 2026-06
         highlights:
           - "Advisor: Prof. Zhiguo Shi (IEEE Fellow)"
-          - "Research group: NESC, State Key Laboratory of Industrial Control Technology"
-          - "Research focus: Integrated Sensing and Communication (ISAC) signal processing"
 
       - institution: University of Pisa
         location: Pisa, Italy
