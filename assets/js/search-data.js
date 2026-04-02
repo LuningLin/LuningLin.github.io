@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -402,13 +402,13 @@ ninja.data = [{
           section: "News",},{id: "news-started-visiting-ph-d-research-at-the-university-of-pisa-italy-under-the-co-advisory-of-prof-fulvio-gini-and-prof-maria-sabrina-greco",
           title: 'Started visiting Ph.D. research at the University of Pisa, Italy, under the co-advisory...',
           description: "",
-          section: "News",},{id: "news-paper-accepted-to-ieee-signal-processing-letters-on-oddm-waveform-design",
-          title: 'Paper accepted to IEEE Signal Processing Letters on ODDM waveform design.',
+          section: "News",},{id: "news-paper-accepted-to-ieee-signal-processing-letters-on-oddm-waveform-design-thanks-to-all-collaborators",
+          title: 'Paper accepted to IEEE Signal Processing Letters on ODDM waveform design. 🎉 Thanks...',
           description: "",
-          section: "News",},{id: "news-paper-accepted-to-ieee-transactions-on-signal-processing-sensing-aided-precoding-with-high-dynamic-moving-scatterers",
+          section: "News",},{id: "news-paper-accepted-to-ieee-transactions-on-signal-processing-sensing-aided-precoding-with-high-dynamic-moving-scatterers-thanks-to-all-collaborators",
           title: 'Paper accepted to IEEE Transactions on Signal Processing: “Sensing-Aided Precoding with High-Dynamic Moving...',
           description: "",
-          section: "News",},{id: "news-paper-accepted-to-ieee-transactions-on-aerospace-and-electronic-systems-on-isac-systems",
+          section: "News",},{id: "news-paper-accepted-to-ieee-transactions-on-aerospace-and-electronic-systems-on-isac-systems-thanks-to-all-collaborators",
           title: 'Paper accepted to IEEE Transactions on Aerospace and Electronic Systems on ISAC systems....',
           description: "",
           section: "News",},{id: "news-awarded-the-national-scholarship-2025",
