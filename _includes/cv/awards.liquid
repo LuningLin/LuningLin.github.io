@@ -16,25 +16,41 @@
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold primary-color-dark text-uppercase align-middle" style="min-width: 95px; display: inline-block;">
+                    <span
+                      class="badge font-weight-bold primary-color-dark text-uppercase align-middle"
+                      style="min-width: 95px; display: inline-block;"
+                    >
                       {% assign date_parts = start_date | split: '-' %}
                       {% if date_parts.size >= 2 %}
                         {% assign year = date_parts[0] %}
                         {% assign month = date_parts[1] %}
                         {% case month %}
-                          {% when '01' %}Jan
-                          {% when '02' %}Feb
-                          {% when '03' %}Mar
-                          {% when '04' %}Apr
-                          {% when '05' %}May
-                          {% when '06' %}Jun
-                          {% when '07' %}Jul
-                          {% when '08' %}Aug
-                          {% when '09' %}Sep
-                          {% when '10' %}Oct
-                          {% when '11' %}Nov
-                          {% when '12' %}Dec
-                        {% endcase %} {{ year }}
+                          {% when '01' -%}
+                            Jan
+                          {% when '02' -%}
+                            Feb
+                          {% when '03' -%}
+                            Mar
+                          {% when '04' -%}
+                            Apr
+                          {% when '05' -%}
+                            May
+                          {% when '06' -%}
+                            Jun
+                          {% when '07' -%}
+                            Jul
+                          {% when '08' -%}
+                            Aug
+                          {% when '09' -%}
+                            Sep
+                          {% when '10' -%}
+                            Oct
+                          {% when '11' -%}
+                            Nov
+                          {% when '12' -%}
+                            Dec
+                        {% endcase %}
+                        {{ year }}
                       {% else %}
                         {{ start_date }}
                       {% endif %}

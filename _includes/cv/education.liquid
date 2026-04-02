@@ -31,7 +31,12 @@
               <tr>
                 <td>
                   {% if date %}
-                    <span class="badge font-weight-bold primary-color-dark text-uppercase align-middle" style="min-width: 95px; display: inline-block;">{{ date }}</span>
+                    <span
+                      class="badge font-weight-bold primary-color-dark text-uppercase align-middle"
+                      style="min-width: 95px; display: inline-block;"
+                    >
+                      {{- date -}}
+                    </span>
                   {% endif %}
                 </td>
               </tr>
