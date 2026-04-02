@@ -38,11 +38,12 @@ cv:
         studyType: B.S.
         start_date: 2017-09
         end_date: 2021-06
-        highlights:
-          - "GPA: 3.85/4.00, Ranking: 7/94"
-          - "Provincial Outstanding Graduate, ZJU Outstanding Graduate"
 
     Awards:
+      - title: Provincial Outstanding Graduate
+        date: 2026-06
+        awarder: Zhejiang Province
+
       - title: National Scholarship
         date: 2025-10
         awarder: Ministry of Education of China
@@ -59,10 +60,6 @@ cv:
         date: 2023-09
         awarder: IEEE Communications Society
 
-      - title: Outstanding Poster, National Doctoral Forum on ICE
-        date: 2023-10
-        awarder: National Doctoral Forum
-
       - title: ZJU First-Class Doctoral Scholarship
         date: 2022-10
         awarder: Zhejiang University
@@ -73,10 +70,6 @@ cv:
 
       - title: Provincial Outstanding Graduate
         date: 2021-06
-        awarder: Zhejiang Province
-
-      - title: Provincial Outstanding Graduate
-        date: 2017-06
         awarder: Zhejiang Province
 
       - title: Zhejiang Provincial Government Scholarship

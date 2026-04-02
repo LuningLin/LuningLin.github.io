@@ -218,3 +218,9 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/* Fix dark mode background for list-group-item */
+.list-group-item {
+  background-color: var(--global-card-bg-color) !important;
+  border-color: var(--global-divider-color) !important;
+}
