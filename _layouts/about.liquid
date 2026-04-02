@@ -5,8 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }} ({{ page.subtitle }})
+        <span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }}
+        {{ site.last_name }}</span> (<span class="font-weight-bold">{{ page.subtitle }}</span>)
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -57,26 +57,61 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <hr>
+
     <!-- Education -->
     <h2 id="education">🎓 Education</h2>
     <div class="education-section">
-      <ul>
-        <li>2021.09 - 2026.06, Ph.D. student, College of Information Science & Electronic Engineering, Zhejiang University, Hangzhou, China</li>
-        <li>2024.09 - 2025.09, Joint training Ph.D. student, Department of Information Engineering, University of Pisa, Pisa, Italy</li>
-        <li>2017.09 - 2021.07, Bachelor, College of Information Science & Electronic Engineering, Zhejiang University, Hangzhou, China</li>
-      </ul>
+      {% assign entries = site.data.cv.cv.sections.Education %}
+      {% include cv/education.liquid %}
     </div>
+
+    <hr>
 
     <!-- Work Experience -->
     <h2 id="work">🏢 Work Experience</h2>
     <div class="work-section">
-      <div class="work-item">
-        <h5><strong>Senior Communication Standards Researcher</strong></h5>
-        <p><a href="https://www.oppo.com/">OPPO</a>, Shanghai, China<br>
-        <em>July 2026 - Present</em>
-        </p>
-      </div>
+      <ul class="card-text font-weight-light list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2026 - Present</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="location">
+                        <i class="fa-solid fa-location-dot iconlocation"></i>
+                        Shanghai, China
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+              <h6 class="title font-weight-bold ml-1 ml-md-4">Senior Communication Standards Researcher</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.oppo.com/">OPPO</a></h6>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
+
+    <hr>
+
+    <!-- Awards -->
+    <h2 id="awards">🏆 Awards</h2>
+    <div class="awards-section">
+      {% assign entries = site.data.cv.cv.sections.Awards %}
+      {% include cv/awards.liquid %}
+    </div>
+
+    <hr>
 
     <!-- Publications -->
     {% if page.selected_papers %}
@@ -85,16 +120,6 @@ layout: default
         {% bibliography %}
       </div>
     {% endif %}
-
-    <!-- Awards -->
-    <h2 id="awards">🏆 Awards</h2>
-    <div class="awards-section">
-      <ul>
-        {% for award in site.data.cv.cv.sections.Awards %}
-          <li><strong>{{ award.title }}</strong> ({{ award.date }}), {{ award.awarder }}</li>
-        {% endfor %}
-      </ul>
-    </div>
 
     <!-- Social -->
     {% if page.social %}
