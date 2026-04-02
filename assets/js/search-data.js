@@ -390,13 +390,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-awarded-the-ieee-aerospace-and-electronic-systems-society-travel-grant-the-only-chinese-student-recipient-that-year",
-          title: 'Awarded the IEEE Aerospace and Electronic Systems Society Travel Grant — the only...',
-          description: "",
-          section: "News",},{id: "news-paper-accepted-to-eurasip-journal-on-advances-in-signal-processing-on-doa-estimation-for-mimo-isac-systems",
-          title: 'Paper accepted to EURASIP Journal on Advances in Signal Processing on DOA estimation...',
-          description: "",
-          section: "News",},{id: "news-received-the-ieee-comsoc-frontiers-of-networking-student-competition-award-for-outstanding-research-in-networking-and-communications",
+            },},{id: "news-received-the-ieee-comsoc-frontiers-of-networking-student-competition-award-for-outstanding-research-in-networking-and-communications",
           title: 'Received the IEEE ComSoc Frontiers of Networking Student Competition Award for outstanding research...',
           description: "",
           section: "News",},{id: "news-started-visiting-ph-d-research-at-the-university-of-pisa-italy-under-the-co-advisory-of-prof-fulvio-gini-and-prof-maria-sabrina-greco",
