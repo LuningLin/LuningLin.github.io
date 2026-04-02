@@ -63,12 +63,20 @@ cv:
         date: 2023-10
         awarder: National Doctoral Forum
 
+      - title: ZJU First-Class Doctoral Scholarship
+        date: 2022-10
+        awarder: Zhejiang University
+
       - title: IEEE AESS Travel Grant (only Chinese student awardee that year)
         date: 2022-05
         awarder: IEEE Aerospace and Electronic Systems Society
 
       - title: Provincial Outstanding Graduate
         date: 2021-06
+        awarder: Zhejiang Province
+
+      - title: Provincial Outstanding Graduate
+        date: 2017-06
         awarder: Zhejiang Province
 
       - title: Zhejiang Provincial Government Scholarship

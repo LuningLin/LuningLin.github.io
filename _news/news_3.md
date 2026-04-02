@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted to **IEEE Transactions on Aerospace and Electronic Systems** on ISAC systems.
+Paper accepted to **IEEE Transactions on Aerospace and Electronic Systems** on ISAC systems. 🎉 Thanks to all collaborators!

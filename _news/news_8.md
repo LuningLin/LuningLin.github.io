@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted to **IEEE Signal Processing Letters** on ODDM waveform design.
+Paper accepted to **IEEE Signal Processing Letters** on ODDM waveform design. 🎉 Thanks to all collaborators!

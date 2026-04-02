@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted to **IEEE Transactions on Signal Processing**: "Sensing-Aided Precoding with High-Dynamic Moving Scatterers".
+Paper accepted to **IEEE Transactions on Signal Processing**: "Sensing-Aided Precoding with High-Dynamic Moving Scatterers". 🎉 Thanks to all collaborators!

@@ -57,7 +57,7 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <hr>
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
 
     <!-- Education -->
     <h2 id="education">🎓 Education</h2>
@@ -66,7 +66,7 @@ layout: default
       {% include cv/education.liquid %}
     </div>
 
-    <hr>
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
 
     <!-- Work Experience -->
     <h2 id="work">🏢 Work Experience</h2>
@@ -79,7 +79,7 @@ layout: default
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2026 - Present</span>
+                      <span class="badge font-weight-bold primary-color-dark text-uppercase align-middle" style="min-width: 75px">Jul 2026</span>
                     </td>
                   </tr>
                   <tr>
@@ -105,7 +105,7 @@ layout: default
       </ul>
     </div>
 
-    <hr>
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
 
     <!-- Awards -->
     <h2 id="awards">🏆 Awards</h2>
@@ -114,13 +114,20 @@ layout: default
       {% include cv/awards.liquid %}
     </div>
 
-    <hr>
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
 
     <!-- Publications -->
     {% if page.selected_papers %}
       <h2 id="publications">📑 Publications</h2>
+
+      <h3>📄 Journal Papers</h3>
       <div class="publications">
-        {% bibliography %}
+        {% bibliography --query @article %}
+      </div>
+
+      <h3>🎤 Conference Papers</h3>
+      <div class="publications">
+        {% bibliography --query @inproceedings %}
       </div>
     {% endif %}
 
