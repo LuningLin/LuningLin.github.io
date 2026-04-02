@@ -40,6 +40,12 @@ layout: default
 
     <div style="clear: both;"></div>
 
+    <!-- Research Interests -->
+    <h2 id="research">🔬 Research Interests</h2>
+    <p style="margin-left: 1rem;">Integrated sensing and communication (ISAC), array signal processing, wireless communication.</p>
+
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2 id="news">
@@ -119,12 +125,12 @@ layout: default
     {% if page.selected_papers %}
       <h2 id="publications">📑 Publications</h2>
 
-      <h3>📄 Journal Papers</h3>
+      <h3 style="margin-top: 2rem; margin-bottom: 1.5rem;">📄 Journal Papers</h3>
       <div class="publications">
         {% bibliography --query @article %}
       </div>
 
-      <h3>🎤 Conference Papers</h3>
+      <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">🎤 Conference Papers</h3>
       <div class="publications">
         {% bibliography --query @inproceedings %}
       </div>
