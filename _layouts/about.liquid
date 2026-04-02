@@ -84,7 +84,7 @@ layout: default
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold primary-color-dark text-uppercase align-middle" style="min-width: 75px">2026</span>
+                      <span class="badge font-weight-bold primary-color-dark text-uppercase align-middle" style="min-width: 95px; display: inline-block;">2026</span>
                     </td>
                   </tr>
                   <tr>
@@ -99,11 +99,7 @@ layout: default
               </table>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-              <h6 class="title font-weight-bold ml-1 ml-md-4">
-                Senior Communication Standards Researcher,
-                <img src="{{ '/assets/img/oppo.png' | relative_url }}" alt="OPPO" style="height: 1.2em; vertical-align: middle; margin-left: 0.3em; margin-right: 0.3em;">
-                OPPO
-              </h6>
+              <h6 class="title font-weight-bold ml-1 ml-md-4">Senior Communication Standards Researcher, OPPO</h6>
             </div>
           </div>
         </li>
@@ -125,12 +121,12 @@ layout: default
     {% if page.selected_papers %}
       <h2 id="publications">📑 Publications</h2>
 
-      <h3 style="margin-top: 2rem; margin-bottom: 1.5rem;">📄 Journal Papers</h3>
+      <h3 style="margin-top: 2rem; margin-bottom: 1.5rem; font-size: 1.3rem;">📄 Journal Papers</h3>
       <div class="publications">
         {% bibliography --query @article %}
       </div>
 
-      <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">🎤 Conference Papers</h3>
+      <h3 style="margin-top: 3rem; margin-bottom: 1.5rem; font-size: 1.3rem;">🎤 Conference Papers</h3>
       <div class="publications">
         {% bibliography --query @inproceedings %}
       </div>
