@@ -15,6 +15,11 @@
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       {{ footer_contents }}
+      <div class="footer-widget" style="display: flex; justify-content: center; margin-top: 5px;">
+        <div style="transform: scale(0.5); transform-origin: center top; height: 130px; overflow: hidden;">
+          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
+        </div>
+      </div>
     </div>
   </footer>
 {% else %}
@@ -25,6 +30,11 @@
 
     <div class="container">
       {{ footer_contents }}
+      <div class="footer-widget" style="display: flex; justify-content: center; margin-top: 15px;">
+        <div style="transform: scale(0.55); transform-origin: center top; height: 140px; overflow: hidden;">
+          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
+        </div>
+      </div>
     </div>
   </footer>
 {% endif %}
