@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-  <!-- Head -->
   <head>
     {% if page.redirect %}
       {% if page.redirect == true %}
@@ -15,42 +14,41 @@
     {% include head.liquid %}
   </head>
 
-  <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
-            <!-- main content area -->
             <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
             <div class="col-sm-3">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
           </div>
         {% else %}
           <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
             <div class="col-sm-3">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
-            <!-- main content area -->
             <div class="col-sm-9">{{ content }}</div>
           </div>
         {% endif %}
       {% else %}
         {{ content }}
       {% endif %}
+
+      {% if page.url == "/" or page.url == "/index.html" %}
+      <div class="clustrmaps-final-wrapper" style="width: 100%; display: flex; justify-content: center; margin-top: 5rem; padding: 2rem 0; border-top: 1px solid var(--global-divider-color);">
+        <div style="width: 260px;">
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=260&t=n&d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0&cmn=8996d8&co=316ad3'></script>
+        </div>
+      </div>
+      {% endif %}
     </div>
 
-    <!-- Footer -->
     {% include footer.liquid %}
 
-    <!-- JavaScripts -->
     {% include scripts.liquid %}
   </body>
 </html>
