@@ -2,8 +2,8 @@
 layout: page
 title: Gallery
 nav: true
-nav_order: 6
-permalink: /gallery/
+nav_order: 7
+permalink: /#gallery
 ---
 
 <style>
