@@ -121,6 +121,8 @@ layout: default
       {% include cv/awards.liquid %}
     </div>
 
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
+
     <!-- Publications -->
     {% if page.selected_papers %}
       <h2 id="publications">📑 Publications</h2>
@@ -176,12 +178,6 @@ layout: default
       <div class="social">
         <div class="contact-icons">
           {% social_links %}
-          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
-          <style>
-            #clstr_globe { width: 16px !important; height: 16px !important; }
-            #clstr_globe img { max-width: 16px !important; max-height: 16px !important; }
-            #clstr_globe canvas { width: 16px !important; height: 16px !important; }
-          </style>
         </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
