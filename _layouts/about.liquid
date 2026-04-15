@@ -142,14 +142,28 @@ layout: default
     {% if site.data.gallery %}
       <h2 id="gallery">📷 Gallery</h2>
       <div class="photo-gallery">
-        {% for photo in site.data.gallery %}
-          <div class="gallery-item">
-            <img class="zoomable" src="{{ photo.image | prepend: 'assets/img/' | relative_url }}" alt="{{ photo.caption }}" style="cursor: zoom-in;">
-            {% if photo.caption %}
-              <p class="gallery-caption">{{ photo.caption }}</p>
-            {% endif %}
+        <div id="galleryCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <div class="carousel-inner">
+            {% for photo in site.data.gallery %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <img class="d-block w-100" src="{{ photo.image | prepend: 'assets/img/' | relative_url }}" alt="{{ photo.caption }}" style="max-height: 400px; object-fit: cover;">
+                {% if photo.caption %}
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>{{ photo.caption }}</p>
+                  </div>
+                {% endif %}
+              </div>
+            {% endfor %}
           </div>
-        {% endfor %}
+          <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
       
       <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
@@ -161,6 +175,10 @@ layout: default
         <div class="contact-icons">
           {% social_links %}
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
+          <style>
+            #clstr_globe { width: 60px; height: 60px; }
+            #clstr_globe img { max-width: 60px; max-height: 60px; }
+          </style>
         </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
