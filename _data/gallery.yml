@@ -1,5 +1,8 @@
-- image: gallery/photo1.jpg
-  caption: Caption for photo 1
-
-- image: gallery/photo2.jpg
-  caption: Caption for photo 2
+- image: gallery/@Unipi Group Meeting, Pisa, Italy, 2025.jpg
+  caption: Unipi Group Meeting 2025, Pisa, Italy
+- image: gallery/@IET Radar Conf., Jiaxing, China, 2025.jpg
+  caption: IET Radar Conference 2025, Jiaxing, China
+- image: gallery/@ICASSP, Seoul, Korea, 2024.jpg
+  caption: ICASSP 2024, Seoul, Korea
+- image: gallery/@NESC Group Meeting, Hangzhou, China, 2024.jpg
+  caption: NESC Group Meeting 2024, Hangzhou, China
