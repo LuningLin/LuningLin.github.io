@@ -123,6 +123,23 @@ layout: default
 
     <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
 
+    <!-- Photo Gallery -->
+    {% if site.data.gallery %}
+      <h2 id="gallery">📷 Gallery</h2>
+      <div class="photo-gallery">
+        {% for photo in site.data.gallery %}
+          <div class="gallery-item">
+            <img class="zoomable" src="{{ photo.image | prepend: '/assets/img/' | relative_url }}" alt="{{ photo.caption }}" style="cursor: zoom-in;">
+            {% if photo.caption %}
+              <p class="gallery-caption">{{ photo.caption }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      
+      <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
+    {% endif %}
+
     <!-- Publications -->
     {% if page.selected_papers %}
       <h2 id="publications">📑 Publications</h2>
@@ -138,32 +155,15 @@ layout: default
       </div>
     {% endif %}
 
-    <!-- Photo Gallery -->
-    {% if site.data.gallery %}
-      <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
-      <h2 id="gallery">📷 Gallery</h2>
-      <div class="photo-gallery">
-        {% for photo in site.data.gallery %}
-          <div class="gallery-item">
-            <img src="{{ photo.image | prepend: '/assets/img/' | relative_url }}" alt="{{ photo.caption }}">
-            {% if photo.caption %}
-              <p class="gallery-caption">{{ photo.caption }}</p>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    <!-- ClustrMaps -->
-    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
-    <div style="text-align: center; margin: 2rem 0;">
-      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
-    </div>
-
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          {% social_links %}
+          <a href="https://clustrmaps.com/site/797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0" title="Visitor Map" target="_blank">
+            <img src="//clustrmaps.com/map_v2.png?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0&cl=ffffff&w=32" style="height: 1em; width: auto; vertical-align: middle;">
+          </a>
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
