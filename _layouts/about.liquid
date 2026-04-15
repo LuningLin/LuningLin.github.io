@@ -138,6 +138,28 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Photo Gallery -->
+    {% if site.data.gallery %}
+      <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
+      <h2 id="gallery">📷 Gallery</h2>
+      <div class="photo-gallery">
+        {% for photo in site.data.gallery %}
+          <div class="gallery-item">
+            <img src="{{ photo.image | prepend: '/assets/img/' | relative_url }}" alt="{{ photo.caption }}">
+            {% if photo.caption %}
+              <p class="gallery-caption">{{ photo.caption }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- ClustrMaps -->
+    <hr style="border-top: 2px solid var(--global-divider-color); margin: 2rem 0;">
+    <div style="text-align: center; margin: 2rem 0;">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
+    </div>
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
