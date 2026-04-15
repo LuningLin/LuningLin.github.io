@@ -146,14 +146,14 @@ layout: default
           <div class="carousel-inner">
             {% for photo in site.data.gallery %}
               <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="d-flex justify-content-center">
-                  <img class="d-block" src="{{ photo.image | prepend: 'assets/img/' | relative_url }}" alt="{{ photo.caption }}" style="max-height: 500px; width: auto; object-fit: contain;">
-                </div>
-                {% if photo.caption %}
-                  <div class="carousel-caption d-none d-md-block">
-                    <p>{{ photo.caption }}</p>
+                <div class="d-flex justify-content-center align-items-center" style="padding: 1rem;">
+                  <div style="text-align: center;">
+                    <img class="d-block" src="{{ photo.image | prepend: 'assets/img/' | relative_url }}" alt="{{ photo.caption }}" style="max-height: 600px; width: auto; max-width: 100%; object-fit: contain;">
+                    {% if photo.caption %}
+                      <p style="margin-top: 1rem; font-size: 1rem; color: var(--global-text-color);">{{ photo.caption }}</p>
+                    {% endif %}
                   </div>
-                {% endif %}
+                </div>
               </div>
             {% endfor %}
           </div>
@@ -178,9 +178,9 @@ layout: default
           {% social_links %}
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=797PMRp4sbgyKqXnmbCBQykWBJkOC9WSWvxms4WyGq0"></script>
           <style>
-            #clstr_globe { width: 32px; height: 32px; }
-            #clstr_globe img { max-width: 32px; max-height: 32px; }
-          </style>
+            #clstr_globe { width: 24px !important; height: 24px !important; }
+            #clstr_globe img { max-width: 24px !important; max-height: 24px !important; }
+          </style
         </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
