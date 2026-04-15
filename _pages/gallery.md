@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: post
 title: Gallery
 nav: true
 nav_order: 7
-permalink: /#gallery
+permalink: /gallery/
 ---
 
 <style>
