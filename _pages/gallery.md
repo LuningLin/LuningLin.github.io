@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Gallery
 nav: true
 nav_order: 7
