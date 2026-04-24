@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-04-24'
 papers:
   POUuJlIAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -17,10 +17,6 @@ papers:
     citations: 2
     title: 'ISAC-enabled near-field high-mobility UAV localization: Analysis, bounds and algorithm'
     year: '2025'
-  POUuJlIAAAAJ:W7OEmFMy1HYC:
-    citations: 0
-    title: "5G \u65B0\u57FA\u5EFA\u4E0E\u4F4E\u7A7A\u65E0\u4EBA\u673A\u76D1\u6D4B"
-    year: '2021'
   POUuJlIAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: "\u591A\u57FA\u7AD9\u534F\u4F5C\u7684\u8054\u5408\u65E0\u4EBA\u673A\u5B9A\u4F4D\u4E0E\u901A\u4FE1\u6CE2\u675F\u9884\u6D4B"
@@ -30,7 +26,7 @@ papers:
     title: DOA estimation for joint sensing and communication with nonorthogonal waveform
     year: '2022'
   POUuJlIAAAAJ:qjMakFHDy7sC:
-    citations: 12
+    citations: 13
     title: Sensing-aided communication channel estimation with tensor-based moving target localization
     year: '2024'
   POUuJlIAAAAJ:u-x6o8ySG0sC:
