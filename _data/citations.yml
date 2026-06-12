@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-12'
 papers:
   POUuJlIAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -26,7 +26,7 @@ papers:
     title: DOA estimation for joint sensing and communication with nonorthogonal waveform
     year: '2022'
   POUuJlIAAAAJ:qjMakFHDy7sC:
-    citations: 13
+    citations: 14
     title: Sensing-aided communication channel estimation with tensor-based moving target localization
     year: '2024'
   POUuJlIAAAAJ:u-x6o8ySG0sC:
