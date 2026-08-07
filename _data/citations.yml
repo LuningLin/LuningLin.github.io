@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-08-07'
 papers:
   POUuJlIAAAAJ:2osOgNQ5qMEC:
-    citations: 7
+    citations: 8
     title: 5G spectrum learning-based passive UAV detection in urban scenario
     year: '2023'
   POUuJlIAAAAJ:9yKSN-GCB0IC:
@@ -10,17 +10,21 @@ papers:
     title: Channel covariance matrix construction for DOA estimation with limited communication symbols
     year: '2023'
   POUuJlIAAAAJ:IjCSPb-OGe4C:
-    citations: 15
-    title: Joint target localization and channel estimation for oddm-isac systems
+    citations: 18
+    title: Joint target localization and channel estimation for ODDM-ISAC systems
     year: '2025'
   POUuJlIAAAAJ:Tyk-4Ss8FVUC:
-    citations: 3
+    citations: 6
     title: 'ISAC-enabled near-field high-mobility UAV localization: Analysis, bounds and algorithm'
     year: '2025'
   POUuJlIAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: "\u591A\u57FA\u7AD9\u534F\u4F5C\u7684\u8054\u5408\u65E0\u4EBA\u673A\u5B9A\u4F4D\u4E0E\u901A\u4FE1\u6CE2\u675F\u9884\u6D4B"
     year: '2026'
+  POUuJlIAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Near-field UAV localization via far-field initialized block coordinate descent
+    year: '2025'
   POUuJlIAAAAJ:d1gkVwhDpl0C:
     citations: 3
     title: DOA estimation for joint sensing and communication with nonorthogonal waveform
@@ -34,6 +38,6 @@ papers:
     title: Nonorthogonal waveform assisted DOA estimation for joint MIMO sensing and communication
     year: '2023'
   POUuJlIAAAAJ:zYLM7Y9cAGgC:
-    citations: 7
+    citations: 9
     title: Sensing-aided precoding with high-dynamic moving scatterers
     year: '2025'
