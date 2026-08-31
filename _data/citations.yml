@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-31'
 papers:
   POUuJlIAAAAJ:2osOgNQ5qMEC:
     citations: 8
@@ -10,11 +10,11 @@ papers:
     title: Channel covariance matrix construction for DOA estimation with limited communication symbols
     year: '2023'
   POUuJlIAAAAJ:IjCSPb-OGe4C:
-    citations: 18
+    citations: 19
     title: Joint target localization and channel estimation for ODDM-ISAC systems
     year: '2025'
   POUuJlIAAAAJ:Tyk-4Ss8FVUC:
-    citations: 6
+    citations: 8
     title: 'ISAC-enabled near-field high-mobility UAV localization: Analysis, bounds and algorithm'
     year: '2025'
   POUuJlIAAAAJ:Y0pCki6q_DkC:
@@ -30,7 +30,7 @@ papers:
     title: DOA estimation for joint sensing and communication with nonorthogonal waveform
     year: '2022'
   POUuJlIAAAAJ:qjMakFHDy7sC:
-    citations: 15
+    citations: 16
     title: Sensing-aided communication channel estimation with tensor-based moving target localization
     year: '2024'
   POUuJlIAAAAJ:u-x6o8ySG0sC:
@@ -38,6 +38,6 @@ papers:
     title: Nonorthogonal waveform assisted DOA estimation for joint MIMO sensing and communication
     year: '2023'
   POUuJlIAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
+    citations: 10
     title: Sensing-aided precoding with high-dynamic moving scatterers
     year: '2025'
